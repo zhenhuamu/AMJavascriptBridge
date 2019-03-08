@@ -1,0 +1,63 @@
+{
+  "name": "AMJavascriptBridge",
+  "version": "0.1.0",
+  "summary": "WebView、Native和JS交互的集成",
+  "description": "基于WKWebView集成WebViewController,基于WebViewJavascriptBridge集成Native和JS交互框架",
+  "homepage": "https://github.com/zhenhuamu/AMJavascriptBridge",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AndyMu": "muzh@2345.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "git@github.com:zhenhuamu/AMJavascriptBridge.git",
+    "tag": "0.1.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "WebKit"
+  ],
+  "subspecs": [
+    {
+      "name": "AMBridge",
+      "source_files": "AMJavascriptBridge/AMBridge/*.{h,m}",
+      "dependencies": {
+        "WebViewJavascriptBridge": [
+
+        ]
+      }
+    },
+    {
+      "name": "AMWebView",
+      "source_files": "AMJavascriptBridge/AMWebView/*.{h,m}",
+      "resources": "AMJavascriptBridge/AMWebView/AMWebView.bundle"
+    },
+    {
+      "name": "AMBridgeWebView",
+      "source_files": "AMJavascriptBridge/AMBridgeWebView/*.{h,m}",
+      "dependencies": {
+        "AMJavascriptBridge/AMBridge": [
+
+        ],
+        "AMJavascriptBridge/AMWebView": [
+
+        ]
+      }
+    },
+    {
+      "name": "AMPrivatyPolicy",
+      "source_files": "AMJavascriptBridge/AMPrivatyPolicy/*.{h,m}",
+      "dependencies": {
+        "AMJavascriptBridge/AMWebView": [
+
+        ]
+      }
+    }
+  ]
+}

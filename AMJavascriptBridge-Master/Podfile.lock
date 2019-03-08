@@ -1,0 +1,34 @@
+PODS:
+  - AMJavascriptBridge (0.1.0):
+    - AMJavascriptBridge/AMBridge (= 0.1.0)
+    - AMJavascriptBridge/AMBridgeWebView (= 0.1.0)
+    - AMJavascriptBridge/AMPrivatyPolicy (= 0.1.0)
+    - AMJavascriptBridge/AMWebView (= 0.1.0)
+  - AMJavascriptBridge/AMBridge (0.1.0):
+    - WebViewJavascriptBridge
+  - AMJavascriptBridge/AMBridgeWebView (0.1.0):
+    - AMJavascriptBridge/AMBridge
+    - AMJavascriptBridge/AMWebView
+  - AMJavascriptBridge/AMPrivatyPolicy (0.1.0):
+    - AMJavascriptBridge/AMWebView
+  - AMJavascriptBridge/AMWebView (0.1.0)
+  - WebViewJavascriptBridge (6.0.3)
+
+DEPENDENCIES:
+  - AMJavascriptBridge (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - WebViewJavascriptBridge
+
+EXTERNAL SOURCES:
+  AMJavascriptBridge:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AMJavascriptBridge: 2214fecfcf05c3245432921b669a16bf4adc8ea6
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+
+PODFILE CHECKSUM: 5287256e38b5ccd0f5a3d23f4ae5c2a92142a5cf
+
+COCOAPODS: 1.5.3

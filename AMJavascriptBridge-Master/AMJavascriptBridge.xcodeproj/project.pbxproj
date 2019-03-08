@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35D7AAE3400FF464052042B3 /* libPods-AMJavascriptBridge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEA964A9B9C14C37A445C598 /* libPods-AMJavascriptBridge.a */; };
+		8E1A389A22320E3C00D2F15C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1A389922320E3C00D2F15C /* AppDelegate.m */; };
+		8E1A389D22320E3C00D2F15C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1A389C22320E3C00D2F15C /* ViewController.m */; };
+		8E1A38A022320E3C00D2F15C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E1A389E22320E3C00D2F15C /* Main.storyboard */; };
+		8E1A38A222320E4000D2F15C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E1A38A122320E4000D2F15C /* Assets.xcassets */; };
+		8E1A38A522320E4000D2F15C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E1A38A322320E4000D2F15C /* LaunchScreen.storyboard */; };
+		8E1A38A822320E4000D2F15C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1A38A722320E4000D2F15C /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		60D0BF3E54E66CB3823C8C49 /* Pods-AMJavascriptBridge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMJavascriptBridge.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMJavascriptBridge/Pods-AMJavascriptBridge.release.xcconfig"; sourceTree = "<group>"; };
+		8E1A389522320E3C00D2F15C /* AMJavascriptBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMJavascriptBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1A389822320E3C00D2F15C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E1A389922320E3C00D2F15C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E1A389B22320E3C00D2F15C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8E1A389C22320E3C00D2F15C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8E1A389F22320E3C00D2F15C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E1A38A122320E4000D2F15C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E1A38A422320E4000D2F15C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E1A38A622320E4000D2F15C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E1A38A722320E4000D2F15C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD067BB36A45D071FBEE172B /* Pods-AMJavascriptBridge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMJavascriptBridge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMJavascriptBridge/Pods-AMJavascriptBridge.debug.xcconfig"; sourceTree = "<group>"; };
+		EEA964A9B9C14C37A445C598 /* libPods-AMJavascriptBridge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AMJavascriptBridge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E1A389222320E3C00D2F15C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35D7AAE3400FF464052042B3 /* libPods-AMJavascriptBridge.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E1A388C22320E3C00D2F15C = {
+			isa = PBXGroup;
+			children = (
+				8E1A389722320E3C00D2F15C /* AMJavascriptBridge */,
+				8E1A389622320E3C00D2F15C /* Products */,
+				ADE5297D3ED2924C4F588F5D /* Pods */,
+				A2C6C63CF11CCEF83381675E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8E1A389622320E3C00D2F15C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E1A389522320E3C00D2F15C /* AMJavascriptBridge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E1A389722320E3C00D2F15C /* AMJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				8E1A389822320E3C00D2F15C /* AppDelegate.h */,
+				8E1A389922320E3C00D2F15C /* AppDelegate.m */,
+				8E1A389B22320E3C00D2F15C /* ViewController.h */,
+				8E1A389C22320E3C00D2F15C /* ViewController.m */,
+				8E1A389E22320E3C00D2F15C /* Main.storyboard */,
+				8E1A38A122320E4000D2F15C /* Assets.xcassets */,
+				8E1A38A322320E4000D2F15C /* LaunchScreen.storyboard */,
+				8E1A38A622320E4000D2F15C /* Info.plist */,
+				8E1A38A722320E4000D2F15C /* main.m */,
+			);
+			path = AMJavascriptBridge;
+			sourceTree = "<group>";
+		};
+		A2C6C63CF11CCEF83381675E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEA964A9B9C14C37A445C598 /* libPods-AMJavascriptBridge.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADE5297D3ED2924C4F588F5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD067BB36A45D071FBEE172B /* Pods-AMJavascriptBridge.debug.xcconfig */,
+				60D0BF3E54E66CB3823C8C49 /* Pods-AMJavascriptBridge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E1A389422320E3C00D2F15C /* AMJavascriptBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E1A38AB22320E4000D2F15C /* Build configuration list for PBXNativeTarget "AMJavascriptBridge" */;
+			buildPhases = (
+				485794EDBBC599B78F84ABFC /* [CP] Check Pods Manifest.lock */,
+				8E1A389122320E3C00D2F15C /* Sources */,
+				8E1A389222320E3C00D2F15C /* Frameworks */,
+				8E1A389322320E3C00D2F15C /* Resources */,
+				B83189BE44E786EA71F7FA78 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMJavascriptBridge;
+			productName = AMJavascriptBridge;
+			productReference = 8E1A389522320E3C00D2F15C /* AMJavascriptBridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E1A388D22320E3C00D2F15C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = AndyMu;
+				TargetAttributes = {
+					8E1A389422320E3C00D2F15C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 8E1A389022320E3C00D2F15C /* Build configuration list for PBXProject "AMJavascriptBridge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E1A388C22320E3C00D2F15C;
+			productRefGroup = 8E1A389622320E3C00D2F15C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E1A389422320E3C00D2F15C /* AMJavascriptBridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E1A389322320E3C00D2F15C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1A38A522320E4000D2F15C /* LaunchScreen.storyboard in Resources */,
+				8E1A38A222320E4000D2F15C /* Assets.xcassets in Resources */,
+				8E1A38A022320E3C00D2F15C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		485794EDBBC599B78F84ABFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AMJavascriptBridge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B83189BE44E786EA71F7FA78 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AMJavascriptBridge/Pods-AMJavascriptBridge-resources.sh",
+				"${PODS_ROOT}/../../AMJavascriptBridge/AMWebView/AMWebView.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMWebView.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AMJavascriptBridge/Pods-AMJavascriptBridge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E1A389122320E3C00D2F15C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1A389D22320E3C00D2F15C /* ViewController.m in Sources */,
+				8E1A38A822320E4000D2F15C /* main.m in Sources */,
+				8E1A389A22320E3C00D2F15C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E1A389E22320E3C00D2F15C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E1A389F22320E3C00D2F15C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E1A38A322320E4000D2F15C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E1A38A422320E4000D2F15C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E1A38A922320E4000D2F15C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8E1A38AA22320E4000D2F15C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E1A38AC22320E4000D2F15C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD067BB36A45D071FBEE172B /* Pods-AMJavascriptBridge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YKV4N9L379;
+				INFOPLIST_FILE = AMJavascriptBridge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andymu.AMJavascriptBridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E1A38AD22320E4000D2F15C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60D0BF3E54E66CB3823C8C49 /* Pods-AMJavascriptBridge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YKV4N9L379;
+				INFOPLIST_FILE = AMJavascriptBridge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andymu.AMJavascriptBridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E1A389022320E3C00D2F15C /* Build configuration list for PBXProject "AMJavascriptBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E1A38A922320E4000D2F15C /* Debug */,
+				8E1A38AA22320E4000D2F15C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E1A38AB22320E4000D2F15C /* Build configuration list for PBXNativeTarget "AMJavascriptBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E1A38AC22320E4000D2F15C /* Debug */,
+				8E1A38AD22320E4000D2F15C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E1A388D22320E3C00D2F15C /* Project object */;
+}

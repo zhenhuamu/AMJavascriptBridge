@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'AMJavascriptBridge' do
+    pod 'AMJavascriptBridge', :path => '../'
+#    pod 'AMJavascriptBridge'
+#    pod 'AMJavascriptBridge/HJBridge'
+#    pod 'AMJavascriptBridge/HJWebView'
+
+end
